@@ -1,0 +1,17 @@
+O projeto simula uma fábrica automotiva e foi desenvolvido aplicando os principais conceitos abordados na Tarefa 3.
+
+Foi utilizado o padrão Strategy para permitir diferentes formas de selecionar as demandas de produção e possibilitar a 
+troca da estratégia durante a execução. Também foram utilizados enums para representar os estados das demandas e a 
+interface Auditavel para padronizar a auditoria de máquinas e produtos.
+
+Foram implementados os cenários Ideal e Apocalíptico, que alteram o orçamento, as probabilidades de falha e o 
+desgaste das máquinas. O sistema também permite consultar separadamente o estoque de matérias-primas e o 
+armazém de produtos acabados.
+
+Como possíveis atualizações futuras, o sistema pode receber novas estratégias de produção, novos tipos de produtos 
+e máquinas, um sistema mais completo de manutenção e reparo, controle de funcionários e turnos, fornecedores com 
+diferentes preços de matéria-prima e novos eventos aleatórios que afetem a produção. Também seria possível 
+implementar um histórico de produção e relatórios com informações sobre custos, falhas, produtividade e lucro da fábrica.
+
+Dessa forma, a estrutura atual permite que novas funcionalidades sejam adicionadas futuramente sem a necessidade 
+de grandes alterações nas classes já existentes.
